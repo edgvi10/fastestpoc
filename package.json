@@ -1,0 +1,19 @@
+{
+    "name": "poc",
+    "description": "",
+    "version": "0.2.118",
+    "scripts": {
+        "dev": "next dev --port=3000",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "axios": "^1.2.3",
+        "dbwalker": "^0.0.52",
+        "next": "^13.1.2",
+        "nextjs-cors": "^2.1.2",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "sass": "^1.57.1"
+    }
+}
