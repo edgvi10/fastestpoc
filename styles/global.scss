@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --header-background: var(--md-grey-50);
+    --text-color: var(--md-grey-900);
+    --bs-warning: var(--md-amber) !important;
+}
+
+::-webkit-scrollbar { width: .5rem; }
+::-webkit-scrollbar-track { padding: .1rem; }
+::-webkit-scrollbar-thumb { background: var(--md-grey-600); border-radius: 2rem; }
+::-webkit-scrollbar-thumb:hover { background: var(--md-grey-700); }
+
+html, body { height: 100%; overflow-x: hidden; overflow-y: auto; overscroll-behavior: none; }
+#__next { height: 100%; display: flex; flex-direction: column; }
+
+main { display: flex; flex-direction: column; flex: 1; }
+body { font-family: "Roboto Mono", sans-serif; cursor: default; user-select: none; }
